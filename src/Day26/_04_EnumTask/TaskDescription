@@ -1,0 +1,13 @@
+    TASK
+
+    Part 1
+    - Create an Enum called Months
+    - Store all the Months as constants
+
+
+    Part 2
+    - Add a field called shortName
+    - Create a constructor to initialize shortName field
+
+    Part 3
+    - Create Main class and use Months Enum inside a switch statement

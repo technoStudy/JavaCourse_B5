@@ -1,0 +1,10 @@
+    TASK - OOP (Objects and Classes)
+
+    1- Create a class called Circle
+            radius
+            PI = 3.14 by default (non-changeable)
+
+
+    2- Create 2 methods in circle class which returns the results
+            calculate area (π * r * r)
+            calculate perimeter (2 * π * r)
