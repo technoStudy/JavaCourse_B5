@@ -1,4 +1,4 @@
-package Day28;
+package Day28.Encapsulation1;
 
 public class Employee {
 

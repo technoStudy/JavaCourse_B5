@@ -1,4 +1,4 @@
-package Day28;
+package Day28.Encapsulation2;
 
 public class MyPlanet {
 

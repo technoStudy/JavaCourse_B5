@@ -1,4 +1,6 @@
-package Day28;
+package Day28.Encapsulation1;
+
+import Day28.Encapsulation1.Employee;
 
 public class Main {
 
