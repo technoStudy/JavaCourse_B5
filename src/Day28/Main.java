@@ -4,11 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Employee employee = new Employee();
-        employee.setBaseSalary(-5);
+        Employee employee = new Employee("Halit", 023324204);
+        employee.setBaseSalary(90_000);
+        employee.setHourlyRate(55);
+        System.out.println(employee.getName());
+
+        System.out.println("Base Salary: " + employee.getBaseSalary());
+        System.out.println("Hourly Rate: " + employee.getHourlyRate());
 
         int wage = employee.calculateWage(12);
-        System.out.println(wage);
+        System.out.println("Wage: " + wage);
 
 
 //        EMPLOYEE IMPLEMENTATION WITHOUT OOP
