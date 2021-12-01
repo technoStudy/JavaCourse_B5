@@ -8,8 +8,8 @@ public class Demo {
         animal.name = "Cinnamon";
         animal.age = 4;
 
-//        animal.eat();
-//        animal.sleep();
+        animal.eat();
+        animal.sleep();
 
 
         Cat cat = new Cat();
@@ -30,6 +30,20 @@ public class Demo {
         dog.eat();
         dog.sleep();
         dog.lickOwner();
+
+
+        Bird bird = new Bird();
+        bird.name = "Zazu";
+        bird.age = 1;
+        bird.sizeOfWings = 5.5;
+        bird.color = "red";
+
+        bird.eat();
+        bird.sleep();
+
+        bird.sing();
+        bird.fly();
+
 
     }
 
