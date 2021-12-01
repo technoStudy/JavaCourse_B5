@@ -4,17 +4,13 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        Animal animal = new Animal();
-        animal.name = "Cinnamon";
-        animal.age = 4;
+        Animal animal = new Animal("Cinnamon", 4);
 
         animal.eat();
         animal.sleep();
 
 
-        Cat cat = new Cat();
-        cat.name = "Red";
-        cat.age = 1;
+        Cat cat = new Cat("Red", 1);
 
         cat.eat();
         cat.sleep();
@@ -23,18 +19,15 @@ public class Demo {
         System.out.println(cat.age);
 
 
-        Dog dog = new Dog();
-        dog.name = "Jacky";
-        dog.age = 7;
+        Dog dog = new Dog("Jacky", 7);
 
         dog.eat();
         dog.sleep();
         dog.lickOwner();
 
 
-        Bird bird = new Bird();
-        bird.name = "Zazu";
-        bird.age = 1;
+        Bird bird = new Bird("Zazu", 1);
+
         bird.sizeOfWings = 5.5;
         bird.color = "red";
 
