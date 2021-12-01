@@ -26,10 +26,9 @@ public class Demo {
         dog.lickOwner();
 
 
-        Bird bird = new Bird("Zazu", 1);
+        Bird bird = new Bird("Zazu", 1, "Red");
 
         bird.sizeOfWings = 5.5;
-        bird.color = "red";
 
         bird.eat();
         bird.sleep();
