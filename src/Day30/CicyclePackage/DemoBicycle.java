@@ -26,6 +26,22 @@ public class DemoBicycle {
         kidsBike.applyBreak(2);
         System.out.println(kidsBike.speed);
 
+
+
+        ElectricBike electricBike = new ElectricBike(18, "bosch", 500);
+        System.out.println("ElectricBike gear: " + electricBike.gear);
+        System.out.println("ElectricBike batteryType: " + electricBike.batteryType);
+        System.out.println("ElectricBike batteryCapacity: " + electricBike.batteryCapacity);
+
+        electricBike.speedUp(45);
+        System.out.println("ElectricBike speed: " + electricBike.speed);
+
+        electricBike.applyBreak(15);
+        System.out.println("ElectricBike speed: " + electricBike.speed);
+
+        electricBike.chargeBattery(50);
+        System.out.println("ElectricBike batteryLevel: " + electricBike.batteryLevel);
+
     }
 
 }
