@@ -1,4 +1,4 @@
-package Day30;
+package Day30.ShapePackage;
 
 public class Rectangle extends Shape{
 
