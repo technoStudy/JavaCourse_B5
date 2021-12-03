@@ -14,6 +14,18 @@ public class DemoBicycle {
         raceBike.applyBreak(3);
         System.out.println("RaceBike speed after break: " + raceBike.speed);
 
+
+
+        KidsBike kidsBike = new KidsBike(1, 4);
+        System.out.println("KidsBike gear:" + kidsBike.gear);
+        System.out.println("KidsBike numberOfWheels: " + kidsBike.numberOfWheels);
+
+        kidsBike.speedUp(5);
+        System.out.println(kidsBike.speed);
+
+        kidsBike.applyBreak(2);
+        System.out.println(kidsBike.speed);
+
     }
 
 }

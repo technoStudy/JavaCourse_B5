@@ -14,6 +14,8 @@ public class Bicycle {
     }
 
     public void applyBreak(int decrementSpeed) {
+        if (decrementSpeed > speed)
+            speed = 0;
         speed -= decrementSpeed;
     }
 
