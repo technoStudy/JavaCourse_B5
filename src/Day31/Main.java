@@ -13,7 +13,7 @@ public class Main {
          */
 
 
-        Test test = new Test();
+        EveryClassExtendsObjectClass test = new EveryClassExtendsObjectClass();
 
         test.hashCode();
         test.toString();
