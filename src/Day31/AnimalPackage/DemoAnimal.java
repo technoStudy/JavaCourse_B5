@@ -10,8 +10,17 @@ public class DemoAnimal {
         cat1.age = 2;
 
         cat1.eat();
-
         cat1.sleep();
+
+        System.out.println("****************************");
+
+        Dog dog1 = new Dog();
+
+        dog1.name = "Jonny";
+        dog1.age = 6;
+
+        dog1.eat();
+        dog1.sleep();
 
 
     }

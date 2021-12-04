@@ -13,8 +13,4 @@ public class Animal {
         System.out.println("Animal is sleeping!");
     }
 
-    public static void example() {
-        System.out.println("hey");
-    }
-
 }
