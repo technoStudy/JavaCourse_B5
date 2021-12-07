@@ -18,6 +18,13 @@ public class Main {
         Calculation.sum(8.4, 1.98, 44.4);   // accepts 3 doubles
 
 
+        Calculation.subtract(63, 10);
+
+        Calculation.subtract(91, 7, 33);
+
+        Calculation.subtract(74.92, 3.456);
+
+
     }
 
 }
