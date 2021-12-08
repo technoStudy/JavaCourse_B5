@@ -16,4 +16,17 @@ public abstract class AbstractClass {
     // Abstract methods don't have body!
     public abstract void abstractMethod();
 
+    public abstract void abstractMethod(int number);
+
+
+
+//    Cannot create private abstract method
+//    private abstract void privateAbsMethod();
+
+//    Cannot create final abstract method
+//    final public abstract void finalAbsMethod();
+
+//    Cannot create static abstract method
+//    public static abstract void staticAbsMethod();
+
 }

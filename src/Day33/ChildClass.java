@@ -9,4 +9,9 @@ public class ChildClass extends AbstractClass {
         System.out.println("Child class overriden abstract method!");
     }
 
+    @Override
+    public void abstractMethod(int number) {
+
+    }
+
 }
