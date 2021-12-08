@@ -12,6 +12,14 @@ public class Demo {
         sportCar.move(5000);
         sportCar.fuelUp(30);
 
+        Vehicle truck = new Truck(2012, 550);
+
+        System.out.println(truck.getYear());
+        System.out.println(truck.getHorsePower());
+
+        truck.move(25, "Miles");
+        truck.fuelUp(100);
+
     }
 
 }
