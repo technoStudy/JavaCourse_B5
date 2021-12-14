@@ -63,6 +63,22 @@ public class _06_ArrayList {
         boolean isEmpty = arrayList.isEmpty();
         System.out.println(isEmpty);
 
+        // print arraylist using loop
+        ArrayList<Double> newArrayList = new ArrayList<>();
+
+        newArrayList.add(5.87);
+        newArrayList.add(91.7);
+        newArrayList.add(4.86);
+        newArrayList.add(754.4);
+
+        for (int i = 0; i < newArrayList.size(); i++)
+            System.out.println(newArrayList.get(i));
+
+//        System.out.println(newArrayList.get(0));
+//        System.out.println(newArrayList.get(1));
+//        System.out.println(newArrayList.get(2));
+//        System.out.println(newArrayList.get(3));
+
     }
 
 }
