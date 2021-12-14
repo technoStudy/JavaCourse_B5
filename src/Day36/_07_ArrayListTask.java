@@ -34,10 +34,17 @@ public class _07_ArrayListTask {
         addElementAtIndex0(colors, "White");
         System.out.println(colors);
 
+        addElementBeforeLastIndex(colors, "Pink");
+        System.out.println(colors);
+
     }
 
     private static void addElementAtIndex0(ArrayList<String> list, String element) {
         list.add(0, element);
+    }
+
+    private static void addElementBeforeLastIndex(ArrayList<String> list, String element) {
+        list.add(list.size() - 1, element);
     }
 
 }
