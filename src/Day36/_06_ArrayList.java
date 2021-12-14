@@ -36,6 +36,32 @@ public class _06_ArrayList {
         // Printing an ArrayList
         System.out.println(arrayList);
 
+        // Remove element at specific index
+        arrayList.remove(0);
+        System.out.println(arrayList);
+
+        // Remove a specific element from arrayList
+        // (will remove first occurrence of an element
+        Integer elementToRemove = 40;
+        arrayList.remove(elementToRemove);
+        System.out.println(arrayList);
+
+        // list.set(index, newValue) -- updating element in a specific index
+        arrayList.set(2, 1000);
+        System.out.println(arrayList);
+
+        // list.size() -- returns number of elements in the arrayList
+        int sizeOfArrayList = arrayList.size();
+        System.out.println(sizeOfArrayList);
+
+        // list.clear() -- removes all elements in arrayList
+        arrayList.clear();
+        System.out.println(arrayList);
+
+        // list.isEmpty() -- returns boolean
+        // checks if the arraylist is empty or not
+        boolean isEmpty = arrayList.isEmpty();
+        System.out.println(isEmpty);
 
     }
 
