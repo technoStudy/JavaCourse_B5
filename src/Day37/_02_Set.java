@@ -1,9 +1,5 @@
 package Day37;
 
-import Day35.InterfaceHomework.Car;
-import Day35.InterfaceHomework.SpaceShip;
-import Day35.InterfaceHomework.Vehicle;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
