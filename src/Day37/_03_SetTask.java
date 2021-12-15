@@ -26,6 +26,17 @@ public class _03_SetTask {
 
         System.out.println(namesSet);
 
+        addAll(namesSet, "Dzuredj", "Feriha", "Arda", "Altyn");
+
+        System.out.println(namesSet);
+
+    }
+
+
+    public static void addAll(Set<String> set, String... elements) {
+
+        for (int i = 0; i < elements.length; i++)
+            set.add(elements[i]);
 
     }
 
