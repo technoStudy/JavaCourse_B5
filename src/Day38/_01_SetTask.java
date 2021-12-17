@@ -9,6 +9,9 @@ public class _01_SetTask {
     // create a method that accepts ArrayList<Integer> and Set<Integer> as parameters
     // and add all elements from ArrayList to Set
 
+    // create a method that takes Set<Character> and varargs of char as parameters
+    // and adds all chars to the set
+
     public static void main(String[] args) {
 
         ArrayList<Integer> arrayList = new ArrayList<>();
