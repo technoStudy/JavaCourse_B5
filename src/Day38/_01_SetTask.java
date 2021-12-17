@@ -27,11 +27,13 @@ public class _01_SetTask {
 
         convertArrayListIntoSet(arrayList, set);
 
+        // This set will contain only unique values from the arrayList
         System.out.println("Set after using convert method: " + set);
 
     }
 
-
+    // With this method we're converting Arraylist into Set
+    // Also we get rid of duplicate values - set will store only unique elements from arrayList
     public static void convertArrayListIntoSet(ArrayList<Integer> list, Set<Integer> set) {
         for (Integer number : list)
             set.add(number);
