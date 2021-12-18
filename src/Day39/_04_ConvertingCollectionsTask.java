@@ -1,9 +1,6 @@
 package Day39;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class _04_ConvertingCollectionsTask {
 
@@ -27,7 +24,8 @@ public class _04_ConvertingCollectionsTask {
         List<Integer> listConvertedFromArray = new ArrayList<>(Arrays.asList(array));
         System.out.println("List converted from array: " + listConvertedFromArray);
 
-
+        Set<Integer> integerSet = new HashSet<>(listConvertedFromArray);
+        System.out.println(integerSet);
 
     }
 
