@@ -1,8 +1,34 @@
 package Day39;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
 public class _04_ConvertingCollectionsTask {
 
     // create an array of random numbers of size 10
-    // convert that array into a list and add 5 more random elements
+    // convert that array into a list
+
+    // convert list into set
+
+    public static void main(String[] args) {
+
+        Integer[] array = new Integer[10];
+
+        Random rnd = new Random();
+
+        for (int i = 0; i < 10; i++)
+            array[i] = rnd.nextInt(10);
+
+        System.out.println("Array: " + Arrays.toString(array));
+
+
+        List<Integer> listConvertedFromArray = new ArrayList<>(Arrays.asList(array));
+        System.out.println("List converted from array: " + listConvertedFromArray);
+
+
+
+    }
 
 }
