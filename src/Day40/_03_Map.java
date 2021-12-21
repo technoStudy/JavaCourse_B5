@@ -43,7 +43,34 @@ public class _03_Map {
         for (Integer value : values)
             System.out.println("Printing all the values one by one: " + value);
 
+        // size()
+        int sizeOfMap = salaries.size();
+        System.out.println("Number of Entries: " + sizeOfMap);
 
+        // isEmpty()
+        boolean isMapEmpty = salaries.isEmpty();
+        System.out.println("Map is empty: " + isMapEmpty);
+
+        // putIfAbsent() -- will add a new entry if key doesn't exist
+        // If key exist in that scenario it's not going to update value
+        salaries.putIfAbsent("Halit", 75_000);
+        System.out.println(salaries);
+        salaries.putIfAbsent("Rita", 200_000);
+        System.out.println(salaries);
+
+        // containsKey() -- returns boolean - checks if map contains key or not
+        boolean isMapContainMike = salaries.containsKey("Mike");
+        System.out.println("Does map has \"Mike\" ? " + isMapContainMike);
+
+        // containsValue() -- returns boolean - check if map contains value or not
+        boolean isMapContain500k = salaries.containsValue(500_000);
+        System.out.println("Does map contain 500k value ? " + isMapContain500k);
+
+        // clear() -- remove all entries from map!
+        salaries.clear();
+        System.out.println("Salaries map after clear() method: " + salaries);
+        isMapEmpty = salaries.isEmpty();
+        System.out.println(isMapEmpty);
 
     }
 
