@@ -1,7 +1,7 @@
 package Day40;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 
 public class _01_2D_Collections {
 
@@ -30,7 +30,27 @@ public class _01_2D_Collections {
         System.out.println(cities);
 
         // Printing 2D ArrayList
-        System.out.println("2D ArrayList: " + listOfLists);
+        System.out.println("2D ArrayList which stores ArrayLists: " + listOfLists);
+
+
+        // Store HashSets inside an ArrayList
+        ArrayList<HashSet<Integer>> listOfSets = new ArrayList<>();
+
+            HashSet<Integer> firstSet = new HashSet<>();
+            firstSet.add(10);
+            firstSet.add(20);
+
+            HashSet<Integer> secondSet = new HashSet<>();
+            secondSet.add(10);
+            secondSet.add(20);
+            secondSet.add(30);
+            secondSet.add(40);
+            secondSet.add(30); // Sets don't allow duplicates!!
+
+        listOfSets.add(firstSet);
+        listOfSets.add(secondSet);
+
+        System.out.println("2D ArrayList which stores Sets: " + listOfSets);
 
     }
 
