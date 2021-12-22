@@ -40,8 +40,7 @@ public class _02_MapRecapTask {
         Set<String> keys = groupsAndMembers.keySet();
         for (String key : keys) {
             ArrayList<String> membersList = groupsAndMembers.get(key);
-            System.out.println("Number of members in group "
-                    + key + " " + membersList.size());
+            System.out.println("Number of members in group " + key + " " + membersList.size());
         }
 
     }
