@@ -2,7 +2,7 @@ package Day41;
 
 import java.util.*;
 
-public class _02_MapRecapTask {
+public class _02_MapRecapTask2 {
 
     // PART 1
     // create a map with groupName as key and groupMembers as value
