@@ -10,11 +10,12 @@ public class Task1 {
         System.out.print("Please enter a number: ");
         String input = scanner.nextLine();
 
-        int number = Integer.parseInt(input);
-        System.out.println(number);
-
-        // handle exception in this code
-        // and print following message: "Your input is invalid!"
+        try {
+            int number = Integer.parseInt(input);
+            System.out.println(number);
+        } catch (NumberFormatException ex) {
+            System.out.println("Your input is invalid!");
+        }
 
     }
 
