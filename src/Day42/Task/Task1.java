@@ -14,6 +14,7 @@ public class Task1 {
         System.out.println(number);
 
         // handle exception in this code
+        // and print following message: "Your input is invalid!"
 
     }
 
