@@ -13,7 +13,7 @@ public class Demo {
 
     public static void printArrayElement(int[] array, int elementIndex) {
         if (elementIndex >= array.length) {
-            throw new ArrayIndexOutOfBoundsException();
+            throw new YouAreWrongBro();
         }
         System.out.println(array[elementIndex]);
     }
