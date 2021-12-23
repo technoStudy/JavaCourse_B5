@@ -11,4 +11,11 @@ public class Account {
             balance += moneyToDeposit;
     }
 
+    public void withdraw(double moneyToWithdraw) {
+        if (moneyToWithdraw > balance) {
+            throw new IllegalArgumentException();
+        }
+        balance -= moneyToWithdraw;
+    }
+
 }
