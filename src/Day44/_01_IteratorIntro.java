@@ -64,6 +64,13 @@ public class _01_IteratorIntro {
 
         // Part2: Iterate over set by using iterator and get every element
         //        If element starts with 'A' then remove element
+        Iterator<String> setIterator2 = names.iterator();
+
+        while (setIterator2.hasNext()) {
+            String name = setIterator2.next();
+            if (name.startsWith("A"))
+                setIterator2.remove();
+        }
 
     }
 
