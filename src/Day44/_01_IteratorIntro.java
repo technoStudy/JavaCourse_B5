@@ -1,7 +1,5 @@
 package Day44;
 
-import Day35.FinalClassesAndMethods.Parent;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -37,6 +35,7 @@ public class _01_IteratorIntro {
 
         Iterator<Integer> iterator = numbers.iterator();
 
+        // Remove elements from list using iterator
         while (iterator.hasNext()) {
             Integer number = iterator.next();
             if (number < 10) {
@@ -47,6 +46,8 @@ public class _01_IteratorIntro {
         System.out.println(numbers);
 
 
+        /*********************TASK**********************/
+
         HashSet<String> names = new HashSet<>();
         names.add("Mike");
         names.add("Steven");
@@ -55,7 +56,14 @@ public class _01_IteratorIntro {
         names.add("Amanda");
 
         // Part1: Using iterator print all the elements 1 by 1
+        Iterator<String> setIterator = names.iterator();
 
+        while (setIterator.hasNext()) {
+            System.out.println(setIterator.next());
+        }
+
+        // Part2: Iterate over set by using iterator and get every element
+        //        If element starts with 'A' then remove element
 
     }
 
